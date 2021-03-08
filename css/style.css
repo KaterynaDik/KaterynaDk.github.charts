@@ -1,0 +1,87 @@
+html, body {
+    background: #181717;
+    color: #fff;
+    margin: 0;
+    min-width: 320px;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+}
+div {
+    display: block;
+}
+.container {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1090px;
+}
+header {
+    display: block;
+    position: relative;
+    height: 80px;
+    padding: 20px 0;
+    background: #000;
+    box-sizing: border-box;
+}
+.header-logo {
+    background-image: url("../icons/Spotify_Logo_RGB_Green.png");
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-size: 100% auto;
+    height: 40px;
+    float: left;
+    margin: 0 10px 0 0;
+    width: 128px;
+    text-indent: -9999px;
+}
+.header-title {
+    font-size: 35px;
+    line-height: 40px;
+    padding: 0 0 0 20px;
+    border-left: 1px solid #fff;
+    cursor: default;
+    float: left;
+    margin: 0;
+    padding: 0 0 0 10px;
+    font-weight: 600;
+}
+.table thead {
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0 0 20px 0;
+    font-size: 9px;
+    line-height: 9px;
+    padding: 0 0 12px 0;
+    text-align: left;
+    text-transform: uppercase;  
+    margin-top: 20px;
+}
+.table,th {
+    color: #7a7a7a;
+    margin-top: 30px;
+}
+td.table, td.chart-table-track strong {
+    color: #fff;
+}
+td.table, td.chart-table-streams {
+    font-size: 15px;
+    font-feature-settings: 'tnum';   
+}
+td.table, img.chart-table-image {
+    background-image: url("https://spotifycharts.com/images/play.png"); 
+    background-size: 100% auto;
+    height: 40px; 
+    width: 40px;
+}
+
+
+
+
+
+
+
+
+ 
+
+
